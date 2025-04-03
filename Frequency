@@ -1,0 +1,23 @@
+
+---
+
+### **3. 24_LogStackEcho**  
+**Description:**  
+A log parsing tool that detects frequently repeating messages and clustered events.
+
+#### **README.md**
+```markdown
+# LogStackEcho - Log Frequency Analyzer
+
+LogStackEcho helps uncover noise, bugs, or attack signatures hidden in large log files.
+
+## Features
+- Repetition counting  
+- Burst detection  
+- Keyword summary  
+
+## Usage
+```bash
+git clone https://github.com/your-username/24_LogStackEcho.git
+cd 24_LogStackEcho
+python analyze.py logs/system.log
